@@ -1,1 +1,1 @@
-# movie-marathon
+# SUPERCOMP Project
