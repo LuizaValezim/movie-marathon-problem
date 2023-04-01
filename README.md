@@ -4,7 +4,8 @@
 
 You want to spend a weekend watching as many movies as possible, but there are restrictions on the available schedules and the number of titles that can be watched in each category (comedy, drama, action, etc).
 
-**Input:** An integer N representing the number of available movies to watch and N triples of integers (H[i], F[i], C[i]), representing the start time, end time, and category of the i-th movie. In addition, an integer M representing the number of categories and a list of M integers representing the maximum number of movies that can be watched in each category. Example:
+#### Input 
+An integer N representing the number of available movies to watch and N triples of integers (H[i], F[i], C[i]), representing the start time, end time, and category of the i-th movie. In addition, an integer M representing the number of categories and a list of M integers representing the maximum number of movies that can be watched in each category. Example:
 ```
 10 4
 1 3 1 2 
@@ -20,7 +21,12 @@ You want to spend a weekend watching as many movies as possible, but there are r
 12 13 4
 ```
 
-**Output:** An integer representing the maximum number of movies that can be watched according to the schedule and the maximum number per category restrictions. Example: ``` 8 movies ```.
+
+#### Input 
+An integer representing the maximum number of movies that can be watched according to the schedule and the maximum number per category restrictions. Example: ``` 8 movies ```.
+
+
+#### Heuristics 
 
 The first implementation of the heuristic for our project consists of a greedy implementation.
 
