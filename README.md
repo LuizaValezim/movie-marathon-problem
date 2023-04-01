@@ -17,3 +17,27 @@ As we have seen in class, randomness is a common strategy for building local sea
 This implementation consists of adapting our project's greedy heuristic. The proposal is that you modify your greedy heuristic so that during the selection of a movie, you have a 25% chance of picking any other movie that respects the schedule. This will make your heuristic have a little more exploration and we can have some better results.
 
 Important: it is essential that you keep all the inputs used throughout the project, so that you can compare the performance of your algorithms as we change the heuristic. That is, all heuristics must be submitted to the same input files. Your result should be compared from at least two perspectives: (i) execution time as a function of the increase in movies and categories, and (ii) screen time (that is, are we able to fill the 24 hours of the day watching movies well?).
+
+
+## Output Example
+´´´
+18 movies.
+19 1 25
+1 2 82
+2 3 11
+3 4 62
+5 5 53
+6 6 79
+8 8 89
+9 9 89
+10 10 95
+11 11 97
+12 12 79
+14 14 63
+15 15 79
+16 16 44
+17 17 77
+18 18 98
+19 19 40
+20 20 72
+´´´
