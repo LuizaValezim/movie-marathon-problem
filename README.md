@@ -20,7 +20,7 @@ Important: it is essential that you keep all the inputs used throughout the proj
 
 
 ## Output Example
-´´´
+'''
 18 movies.
 19 1 25
 1 2 82
@@ -40,4 +40,4 @@ Important: it is essential that you keep all the inputs used throughout the proj
 18 18 98
 19 19 40
 20 20 72
-´´´
+'''
