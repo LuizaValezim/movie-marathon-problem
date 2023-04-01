@@ -12,6 +12,9 @@
 #include <map>
 #include <ctime>
 
+#ifndef BASIC_H
+#define BASIC_H
+
 using namespace std;
 
 using map;
