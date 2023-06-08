@@ -37,3 +37,13 @@ As we have seen in class, randomness is a common strategy for building local sea
 This implementation consists of adapting our project's greedy heuristic. The proposal is that you modify your greedy heuristic so that during the selection of a movie, you have a 25% chance of picking any other movie that respects the schedule. This will make your heuristic have a little more exploration and we can have some better results.
 
 **Important:** it is essential that you keep all the inputs used throughout the project, so that you can compare the performance of your algorithms as we change the heuristic. That is, all heuristics must be submitted to the same input files. Your result should be compared from at least two perspectives: (i) execution time as a function of the increase in movies and categories, and (ii) screen time (that is, are we able to fill the 24 hours of the day watching movies well?).
+
+#### Exaustive search
+
+Another implementation that is being used in our project is the exaustive search.
+
+Exhaustive search, also known as brute-force search, algorithms are computational methods that explore all possible solution combinations for a problem. 
+
+They are used when it is necessary to examine all solutions without relying on optimizations or heuristics. Exhaustive search algorithms are applied to optimization, combinatorial, password cracking, and game problems. However, they can become impractical for problems with a large number of possible combinations, which is our case in the selection of movies.
+
+It is a systematic method of solving a problem by evaluating all possible solutions. It involves systematically examining every candidate solution in a problem space until the correct solution is found or all possibilities have been exhausted. All potential solutions are evaluated one by one, without applying any optimization or heuristic techniques to narrow down the search space. This means that every possible combination or configuration is considered, ensuring that no potential solution is missed.
