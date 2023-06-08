@@ -167,6 +167,5 @@ int main(){
         cout << movies[best_schedule[i]].start << " " << movies[best_schedule[i]].end << " " << movies[best_schedule[i]].genre << endl;
     }
 
-
     return bestMovies.n_movies;
 }
